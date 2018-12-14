@@ -1,4 +1,4 @@
-FROM melservice/ubuntu-mariadb:latest
+FROM melservice/ubuntu-server:latest
 
 LABEL version="1.0" \
 	description="Maria-DB-Server als Service auf Ubuntu-Basis" \
