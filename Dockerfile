@@ -15,7 +15,7 @@ RUN /docker/init/initService.sh
 VOLUME ["/docker/input", "/docker/output"]
 
 # Port, der nach aussen durchgereicht wird
-EXPOSE 67/udp
+#EXPOSE 67/udp
 
 # Dies ist das Start-Kommando
 CMD ["bash", "/docker/init/runService.sh"]
