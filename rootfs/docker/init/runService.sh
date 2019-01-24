@@ -22,10 +22,10 @@ function stopService {
 # per Trap wird der Dienst wieder heruntergefahren
 trap 'stopService; exit $?' EXIT SIGINT SIGKILL SIGTERM
 
-# Der DHCP-Dämon wird gestartet
+# Der MariaDB-Dämon wird gestartet
 #/usr/sbin/dhcpd
 
-# Auf das Beenden des DHCP-Daemons warten
+# Auf das Beenden des MariaDB-Daemons warten
 #sleep 100;
 #if [ -f "$pidfile" ]; then
 #	waitPID=$(cat "$pidfile");
